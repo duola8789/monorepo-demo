@@ -11,6 +11,9 @@
 ## 启动
 
 ```bash
-yarn workspace next dev
-yarn workspace vite dev
+yarn start:next;
+# 等同于 yarn workspace next dev
+
+yarn start:vite
+# 等同于 yarn workspace vite dev
 ```
