@@ -1,0 +1,12 @@
+packages/*/node_modules/
+node_modules/
+dist/
+.temp/
+.idea/
+.vscode/
+.next/
+packages/*/yarn-error.log
+.cache/
+.github/
+.husky/
+.vscode/
