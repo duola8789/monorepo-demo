@@ -6,7 +6,7 @@
     "module": "ESNext",
     "skipLibCheck": true,
     "paths": {
-      "@vite/*": ["../vite/src/*"],
+      "@vite/*": ["./src/*"],
       "@common/*": ["../common/*"]
     },
 

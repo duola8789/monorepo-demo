@@ -5,16 +5,18 @@
   "description": "EDM AI Helper of Netease",
   "license": "MIT",
   "scripts": {
-    "start:next": "yarn workspace next dev" ,
-    "start:vite": "yarn workspace vite dev"
+    "start:next": "yarn workspace next dev",
+    "start:vite": "yarn workspace vite dev",
+    "start:koa": "yarn workspace koa dev",
+    "build:next": "yarn workspace next build",
+    "build:vite": "yarn workspace vite build"
   },
   "workspaces": [
-    "packages/web",
     "packages/next",
-    "packages/vite"
+    "packages/vite",
+    "packages/koa"
   ],
-  "devDependencies": {
-  },
+  "devDependencies": {},
   "dependencies": {
     "cross-env": "^7.0.3"
   }
