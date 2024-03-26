@@ -14,7 +14,8 @@
   "workspaces": [
     "packages/next",
     "packages/vite",
-    "packages/koa"
+    "packages/koa",
+    "packages/express"
   ],
   "devDependencies": {},
   "dependencies": {

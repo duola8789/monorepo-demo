@@ -1,0 +1,5 @@
+{
+  "watch": ["src"],
+  "ext": "ts",
+  "exec": "cross-env mode=dev ts-node -r tsconfig-paths/register src/app.ts | pino-pretty"
+}

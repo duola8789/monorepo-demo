@@ -1,0 +1,24 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "composite": true,
+    "target": "esnext",
+    "module": "commonjs",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": ".",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "paths": {
+      "@express/*": ["./src/*"],
+      "@common/*": ["../common/*"]
+    }
+  },
+  "include": ["src",  "../common"],
+  "exclude": ["node_modules", "dist", "public"],
+  "references": [
+    { "path": "../common" },
+  ]
+}
